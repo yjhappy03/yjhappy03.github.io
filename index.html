@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        h1{
+            color: #b7a393;
+        }
+        ul{
+            list-style-type: none;
+        }
+        body{
+            font-family: "맑은 고딕", "돋움";
+            font-size: 100%;
+        }
+        [class*="c_"]{
+            float: left;
+            padding: 10px;
+        }
+        [class*="c_"]{
+            width: 100%;
+        }
+        @media only screen and (min-width:600px){
+            .c_m_1{width: 8.33%;}
+            .c_m_2{width: 16.66%;}
+            .c_m_3{width: 25%;}
+            .c_m_4{width: 33.33%;}
+            .c_m_5{width: 41.66%;}
+            .c_m_6{width: 50%;}
+            .c_m_7{width: 58.33%;}
+            .c_m_8{width: 66.66%;}
+            .c_m_9{width: 75%;}
+            .c_m_10{width: 83.33%;}
+            .c_m_11{width: 91.66%;}
+            .c_m_12{width: 100%;}
+        }
+        @media only screen and (min-width: 768px){
+            .c_1{width: 8.33%;}
+            .c_2{width: 16.66%;}
+            .c_3{width: 25%;}
+            .c_4{width: 33.33%;}
+            .c_5{width: 41.66%;}
+            .c_6{width: 50%;}
+            .c_7{width: 58.33%;}
+            .c_8{width: 66.66%;}
+            .c_9{width: 75%;}
+            .c_10{width: 83.33%;}
+            .c_11{width: 91.66%;}
+            .c_12{width: 100%;}
+        }
+        header{
+            height: 80px;
+            padding: 20px;
+            background-color: #4c3422;
+        }
+        aside{
+            color: #ffffff;
+        }
+        aside li{
+            padding: 10px;
+            margin: 5px;
+            background-color: #c6ae9a;
+        }
+        aside li a{
+            text-decoration: none;
+            color: black;
+            display: block;
+        }
+        section#main{
+            padding: 5px;
+        }
+        section#main p{
+            padding: 10px;
+            font-size: 0.95em;
+            line-height: 130%;
+        }
+        aside#photos img{
+            width: 100%;
+        }
+        aside#photos li{
+            margin: 5px 0 0 0;
+        }
+        footer{
+            height: 60px;
+            padding: 10px;
+            text-align: center;
+            background-color: #eeeeee;
+        }
+    </style>
+</head>
+<body>
+    <header class="c_12">
+        <h1>카페 추천 사이트</h1>
+    </header>
+    <aside class="c_m_3 c_3">
+        <ul>
+            <li><a href="index.html">메인</a></li>
+            <li><a href="study.html">조용한 카페</a></li>
+            <li><a href="unique.html">이색 카페</a></li>
+            <li><a href="pet.html">반려동물 카페</a></li>
+            <li><a href="tea.html">찻집 추천</a></li>
+            <li><a href="self.html">무인카페 추천</a></li>
+        </ul>
+    </aside>
+    <section id="main" class="c_m_9 c_6">
+        <h2>오늘 어떤 카페를 찾고 있나요?</h2>
+        <p>
+            친구와 놀거나 공부하기 위해 카페를 자주 이용하지만, 원하는 분위기와 시설을 갖춘 카페를 찾는 과정이 오래 걸리는 경우가 많았습니다.
+            이러한 불편함을 줄이고 취향에 맞는 공간을 쉽고 빠르게 찾을 수 있도록 카페 추천 사이트를 만들었습니다.
+        </p>
+        <p>
+            공부하기 좋은 조용한 카페부터 반려동물과 함께 방문할 수 있는 카페, 특이한 분위기의 이색 카페, 차를 즐길 수 있는 찻집,
+24시간 이용 가능한 무인카페까지 다양한 목적에 맞는 장소를 추천합니다. 방문 목적과 원하는 분위기에 따라 더 편리하게 카페를 찾을 수 있습니다.
+        </p>
+    </section>
+    <aside id="photos" class="c_m_12 c_3">
+        <h4></h4>
+        <ul>
+            <li><img src="img/img1.jpg" ></li>
+            <li><img src="img/img2.jpg" ></li>
+        </ul>
+    </aside>
+    <footer class="c_12">
+       이연정 202439748
+    </footer>
+</body>
+</html>
